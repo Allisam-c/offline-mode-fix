@@ -1,0 +1,8 @@
+# 构建产物
+build/
+*.jar
+
+# IDE / 系统
+.idea/
+.vscode/
+Thumbs.db

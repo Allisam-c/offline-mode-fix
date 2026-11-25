@@ -1,0 +1,11 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.allisam.offlinemodefix.mixin",
+  "client": [
+    "OfflineClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
