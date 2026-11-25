@@ -43,13 +43,13 @@ Minecraft **26.3** 原版在收到其他玩家的聊天消息时，会调用 `Mi
 
 ## 构建
 
-无 Gradle，纯 `javac` 构建（复用游戏自带的 NeoForge/ASM 库）：
+标准 ModDevGradle 工程（Gradle 9.9.2 + JDK 25）：
 
-```powershell
-.\build.ps1     # 产物在 build\libs\
+```bash
+./gradlew build     # 产物在 build/libs/
 ```
 
-需要 JDK 25，脚本会自动从本地 `.minecraft/libraries` 找依赖。
+首次构建会联网下载 NeoForge 与依赖，之后走本地缓存。也可在 IDEA 中直接运行 Gradle build 或 runClient。
 
 ## 致谢
 

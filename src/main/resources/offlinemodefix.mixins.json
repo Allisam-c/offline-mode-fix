@@ -2,10 +2,15 @@
   "required": true,
   "minVersion": "0.8",
   "package": "com.allisam.offlinemodefix.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "mixins": [],
   "client": [
     "OfflineClientMixin"
   ],
   "injectors": {
     "defaultRequire": 1
+  },
+  "overwrites": {
+    "requireAnnotations": true
   }
 }
