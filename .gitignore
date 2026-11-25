@@ -6,3 +6,7 @@ build/
 .idea/
 .vscode/
 Thumbs.db
+
+# IDE
+*.iml
+.idea/
